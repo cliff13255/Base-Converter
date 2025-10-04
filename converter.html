@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaseConverter</title>
+    <style>
+        body{
+        text-align: center;
+        background-color: blue;
+        margin: 10px;
+        padding: 0;
+        height: 100vh;
+    }
+    button{
+        background-color: rgb(140, 45, 138);
+        text-align: center;
+        color: white;
+        border-radius:8px ;
+        border: none;
+        padding: 5px;
+        font-weight: bold;
+        margin-top: 16px;
+    }
+    input{
+        padding: 10px;
+        border-radius: 5px;
+        border: solid 1px black;
+        
+    }
+    button:hover{
+       background-color: rgb(25, 24, 25); 
+    }
+  button:active{
+       background-color: rgb(25, 24, 25); 
+    }
+    
+    .container{
+        background-color: beige;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        padding-bottom: 16px;
+        border-radius: 8px;
+        text-align: center;
+        
+    }
+#answer{
+    background-color: black;
+     color: whitesmoke;
+    padding: 8px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 250px;
+    text-align: left;
+    display: none;
+}
+    </style>
+</head>
+<body>
+
+   <div class="container">
+
+    <h1 id="heading">Base Conversion </h1>
+
+    <p id="instructions">This a basial converter,,,,please choose the base in which you are going to write your test</p>
+        <input type="number" id="input" style="display: none;"><br>
+
+        <p id="answer"></p>
+
+        <button id="button1">Binary</button>
+        <button id="button2">Decimal</button>
+        
+
+   </div>
+    
+<script src="converter.js"></script>
+</body>
+</html>
